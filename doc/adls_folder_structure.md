@@ -8,6 +8,7 @@ This project uses Medallion Architecture with separate ADLS Gen2 containers for 
  
 Bronze stores raw source data.
  
+
 bronze/
 ├── daily_operations/
 ├── asset_master/
@@ -17,6 +18,7 @@ bronze/
     ├── regions/
     ├── fuel_types/
     └── business_units/
+
 
 ## Silver Layer
 
@@ -29,6 +31,7 @@ silver/
 ├── region_master_delta/
 ├── fuel_type_master_delta/
 └── business_unit_delta/
+
 
 ## Gold Layer
 
