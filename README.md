@@ -17,7 +17,7 @@ The goal of this project is to build an end-to-end Azure Lakehouse using:
 - Spark Performance Tuning
 - Gold Layer KPI Tables
  
-## Architecture
+### Architecture
  
 Data flows through Medallion Architecture:
  
